@@ -1,0 +1,8 @@
+<div class="container">
+  Search: <input type="text" (input)="onChangeEvent($event)">
+  <tr *ngFor="let index of dataShow">
+    <td >{{index}}</td>
+  </tr>
+</div>
+
+<router-outlet></router-outlet>
